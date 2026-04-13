@@ -255,7 +255,7 @@ $container-max-width: 768px;
 
   // Mobile responsive (~ 768px)
   @media (max-width: 768px) {
-    padding: 150px 0 140px;
+    padding: 150px 0 100px;
 
     .title {
       font-size: 30px;
@@ -263,18 +263,18 @@ $container-max-width: 768px;
     }
 
     .invitationContent {
-      gap: 32px;
+      gap: 40px;
       font-size: 15px;
 
       .invitationMessage {
-        gap: 8px;
+        gap: 10px;
       }
     }
 
     .from {
-      gap: 12px;
+      gap: 8px;
       font-size: 18px;
-      letter-spacing: 4px;
+      letter-spacing: 3px;
     }
 
     .date {

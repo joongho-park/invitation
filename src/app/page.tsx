@@ -58,6 +58,11 @@ export default function Main() {
   const accounts = [
     {
       bank: "농협",
+      number: "455-01-133558",
+      holder: "박양열",
+    },
+    {
+      bank: "농협",
       number: "455-12-266333",
       holder: "강현숙",
     },
@@ -147,13 +152,12 @@ export default function Main() {
               <div className={styles.invitationMessage}>
                 <div>화려한 예식 대신 가족들과의 소중한 식사로</div>
                 <div>부부로서의 첫걸음을 내딛기로 하였습니다.</div>
-              </div>
-              <div className={styles.invitationMessage}>
                 <div>직접 모시지 못한 송구한 마음을 담아</div>
                 <div>따로 정성껏 식사 자리를 준비했사오니,</div>
                 <div>귀한 걸음 하시어 저희의 시작을 격려해 주시면</div>
                 <div>더할 나위 없는 기쁨이겠습니다.</div>
               </div>
+              <div className={styles.invitationMessage}></div>
             </div>
             <div className={styles.from}>
               <div>
